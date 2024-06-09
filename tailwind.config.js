@@ -6,8 +6,10 @@ export default {
   ],
   theme: {
     extend: {
-      founder: ["founder", "sans-serif"],
-      neue: ["neue", "sans-serif"],
+      fontFamily: {
+        founder: ['founder', 'sans-serif'],
+        neue: ['neue', 'sans-serif'],
+      },
     },
   },
   plugins: [],
